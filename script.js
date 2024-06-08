@@ -80,6 +80,10 @@ function scrollToTop() {
     });
 }
 
+function goBack() {
+    window.history.back();
+  }
+
 window.addEventListener('scroll', function () {
     var scrollTopButton = document.querySelector('.scroll-top');
     if (this.window.pageYOffset > 200) {
